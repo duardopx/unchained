@@ -57,7 +57,7 @@ enableGitInfo   = true
 
     [[params.social]]
       name = "linkedin"
-      url  = "https://linkedin/in/duardopx"
+      url  = "https://www.linkedin.com/in/duardopx/"
 
     [[params.social]]
       name = "gpg"
