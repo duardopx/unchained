@@ -1,3 +1,64 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://duardopx.github.io/"
+languageCode = "en-GB"
+title = "Eduardo Paixão"
+theme = "hello-friend-ng"
+enableGitInfo   = true
+
+[markup]
+  [markup.highlight]
+    style = "native"
+    guessSyntax = true
+
+[permalinks]
+  posts = "/:title/"
+
+[author]
+  name = "Eduardo Paixão"
+
+[params]
+  dateform        = "2 January 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0500"
+  disableReadOtherPosts = false
+  defaultTheme = "dark"
+  homeSubtitle = "Welcome"
+  contentTypeName = "posts"
+
+[languages]
+  [languages.en]
+    title = "Eduardo Paixão"
+    subtitle = ""
+    keywords = ""
+    copyright = "<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>CC-BY 4.0</a>"
+    readOtherPosts = "← Prev | Read more | Next →"
+
+    [languages.en.params.logo]
+      logoText = "duardopx:~$"
+      logoHomeLink = "/"
+
+    [[menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+
+    [[menu.main]]
+      identifier = "about"
+      name       = "About"
+      url        = "/about"
+
+    [[params.social]]
+      name = "email"
+      url  = "duardopx@protonmail.com"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/duardopx"
+
+    [[params.social]]
+      name = "linkedin"
+      url  = "https://linkedin/in/duardopx"
+
+    [[params.social]]
+      name = "gpg"
+      url  = "/gpg.txt"
