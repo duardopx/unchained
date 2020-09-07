@@ -10,5 +10,5 @@ I am too formad as a network technician, this allowed me to working with network
 
 Majority of my software projects are open, you can see them on my [github](https://github.com/duardopx/).
 
-If you have some question to me, feel free to send me an email at **duardopx@protonmail.com**.
+Feel free to send me an email at **duardopx@protonmail.com**.
 
