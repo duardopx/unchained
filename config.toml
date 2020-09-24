@@ -61,4 +61,4 @@ enableGitInfo   = true
 
     [[params.social]]
       name = "gpg"
-      url  = "/gpg.txt"
+      url  = "/pgp.txt"
